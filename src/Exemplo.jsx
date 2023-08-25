@@ -4,7 +4,7 @@ export function Exemplo({lista}){
     <h1>Lista de alunos</h1>
   {lista.map(aluno => (
             <ul>
-        <li>{aluno}</li>
+        <li>{aluno.nome}, {aluno.idade} anos, mora em {aluno.cidade}. </li>
           </ul>
           ))}
     
